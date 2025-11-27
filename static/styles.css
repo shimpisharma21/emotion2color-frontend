@@ -63,10 +63,16 @@ a {
 }
 
 .logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.5rem;
 }
+
+.logo-mark {
+  height: 32px;
+  width: auto;
+}
+
 
 .logo-icon {
   width: 32px;
